@@ -1,6 +1,6 @@
 /*
 * Demonstrates array declarions by storing single variables into an array.
-*lala
+*
 * Return	Cars (array), Cars length	
 */
 function cars(){
@@ -9,13 +9,14 @@ function cars(){
 	var car3 = "Mazda";
 
 	//Create an array declaration named cars and set each car variable as the values.
+var cars = ["Toyota", "Jeep Wrangler", "Mazda"]
 
 	//Print the created array
-
+console.log(cars);
 	//Print the array length
-
+console.log(cars.length);
 	//Return the created array and the array length
-	return;
+	return cars;
 }
 
 console.log(cars());
@@ -28,13 +29,14 @@ console.log(cars());
 */
 function order(food, drink, dessert){
 	//Store the parameters in an array called "order"
+var order = ["food", "dessert", "drink"]
 
 	//Print the array named "order"
-	
+	console.log(order);
 	//Print the length of the array named "order"
-
+	console.log(order.length)
 	//Return the order as a complete sentence represented as a string
-	return;
+	return order;
 }
 
 console.log(order("Burger", "root beer", "frosty"));
@@ -57,9 +59,11 @@ var currentClasses = [
 */
 function loopToChange(classes){
 	//Print the parameter that is being passed through the function
-
+vae classes 
 	//Use a For loop to iterate through each value in the passed array
-	
+	or (i = 6; i < currentClasses.length; i++) {
+    text += classes[i] + "<br>";
+
 	//Return classes
 	return;
 }
@@ -74,7 +78,7 @@ console.log(loopToChange(currentClasses));
 */
 function arrayMethodToLoop(numbers){
 	//Print the parameter that is being passed through the function
-
+console.log(arrayMethodToLoop(numbers))
 	//Use the forEach() method to add 5 to each value in the passed array
 	
 	//Return the changed array
@@ -91,7 +95,7 @@ console.log(arrayMethodToLoop([5 + 1, 3]));
 */
 function moreArrayMethods(priorities){
 	//Print the parameter that is being passed through the function
-
+console.log(moreArrayMethods(prioritiesp))
 	//Use the method sort() to sort your priorities
 
 	//Use the method indexOf() to replace "Not Going to Class" to "Going to Class"
